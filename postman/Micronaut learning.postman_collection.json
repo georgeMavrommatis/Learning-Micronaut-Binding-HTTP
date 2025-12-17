@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "95301315-d5b5-49ed-8834-5187247c0f16",
-		"name": "Micronaut learning 2",
+		"_postman_id": "70b3a9cf-5b9f-4347-b198-af71fb3ac4bb",
+		"name": "Micronaut learning",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "11550685",
-		"_collection_link": "https://grey-comet-448886.postman.co/workspace/Generali~8cb4727b-c50c-4620-be93-298ac276c8f5/collection/11550685-95301315-d5b5-49ed-8834-5187247c0f16?action=share&source=collection_link&creator=11550685"
+		"_collection_link": "https://grey-comet-448886.postman.co/workspace/Generali~8cb4727b-c50c-4620-be93-298ac276c8f5/collection/11550685-70b3a9cf-5b9f-4347-b198-af71fb3ac4bb?action=share&source=collection_link&creator=11550685"
 	},
 	"item": [
 		{
@@ -84,7 +84,8 @@
 							{
 								"key": "X-Custom-Header",
 								"value": "dummy-header",
-								"type": "text"
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"url": {
@@ -169,7 +170,7 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/C:/Users/gmavr/Documents/projects/micronaut/GitHub/Learning-Micronaut/micronaut-cli.yml"
+									"src": "/C:/Users/gmavr/Documents/projects/micronaut/GitHub/Learning-Micronaut-Binding-HTTP/postman/Micronaut learning.postman_collection.json"
 								}
 							]
 						},

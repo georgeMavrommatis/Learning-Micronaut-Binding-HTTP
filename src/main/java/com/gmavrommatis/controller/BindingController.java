@@ -26,7 +26,9 @@ public class BindingController {
   @Get("/cookie")
   public HttpResponse<String> getCookieValueDemo(
       @CookieValue("sessionId") String sessionId, HttpRequest request) {
-    log.info("" + request.getCookies().findCookie("sessionId").get().getName());
+    log.info("" + request.getCookies().findCookie("sessionId")
+            .map(Cookie::getName)
+            .orElse(null));
     return HttpResponse.ok("Cookie sessionId=" + sessionId);
   }
 
